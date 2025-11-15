@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElderCare Guardian Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ElderCare Guardian</h1>
+            <p>AI Safety & Health Monitoring System</p>
+        </header>
+
+        <div class="dashboard-grid">
+            <div class="card">
+                <h2>Activity Status</h2>
+                <div id="activity-status">Loading...</div>
+            </div>
+
+            <div class="card">
+                <h2>Recent Activities</h2>
+                <ul id="recent-activities"></ul>
+            </div>
+
+            <div class="card">
+                <h2>Reminders</h2>
+                <ul id="reminders-list"></ul>
+            </div>
+
+            <div class="card">
+                <h2>Appointments</h2>
+                <ul id="appointments-list"></ul>
+            </div>
+
+            <div class="card">
+                <h2>Alerts</h2>
+                <div id="alerts-section">
+                    <button id="test-alert">Send Test Alert</button>
+                    <div id="alert-status"></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Voice Assistant</h2>
+                <p>Voice assistant is running separately.</p>
+                <p>Commands: reminders, appointments, help, status</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>
